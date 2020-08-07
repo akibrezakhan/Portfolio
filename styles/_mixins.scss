@@ -1,0 +1,20 @@
+@import './variables';
+
+@mixin boxShadow($colo: #252525ab) {
+    box-shadow: 0.1rem 0.1rem 0.3rem $colo;
+}
+
+@mixin defBorder($col: #f00) {
+    border: 0.1rem solid $col;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rounded($rad: 0.2rem) {
+    border: none;
+    border-radius: $rad;
+}
